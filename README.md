@@ -8,6 +8,21 @@ This repository is the official code implementation of the paper **"Contrastive 
 ```
 git clone git@github.com:ChintanTrivedi/contrastive-game-representations.git
 cd contrastive-game-representations
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 Note that this code has been developed/tested with a single NVIDIA GPU using CUDA 10 and Tensorflow 2.3 on Windows platform. It is expected to work as-is on Linux/Colab platforms (untested).
+
+## Download *Sports10* Dataset
+![Sports10 Dataset Preview](./datasets/Sports10 Dataset Preview.png)
+
+## Run Fully Supervised Training
+```
+python train_fulsup.py
+```
+
+## Run Supervised Contrastive Training
+```
+python train_supcon.py
+```
+
+## Download Pre-Trained Model
