@@ -19,27 +19,42 @@ Note that this code has been developed/tested with a single NVIDIA GPU using [CU
 ## Download *Sports10* Dataset
 We present a new dataset containing ***100,000 Gameplay Images*** of ***175 Video Games*** across ***10 Sports Genres***. The games are also divided into three visual styling categories: ***RETRO*** (arcade-style, 1990s and earlier), ***MODERN*** (roughly 2000s) and ***PHOTOREAL*** (roughly late 2010s).
 
-<img src='./datasets/Sports10 Dataset Preview.png'/>
+<img src='./datasets/Sports10 Banner Image.png'/>
 
-Download the full dataset (~10GB) from [google drive](https://drive.google.com/drive/folders/137Byy_ngEp_dFnzKpnCK1wxyzYxnhamE?usp=sharing).
+Download the full dataset (~10GB) from [google drive](https://drive.google.com/drive/folders/137Byy_ngEp_dFnzKpnCK1wxyzYxnhamE?usp=sharing) and extract the zip file's contents to the datasets directory in the peoject.
+
 Meta-data is also available with the full [list of games](https://drive.google.com/file/d/1OywBuQjjEjxBAKFL7QzE3QRoVQVON4wO/view?usp=sharing).
 For more information on the dataset, please refer our [paper]().
 
 
-## Run Fully Supervised Training
-```
-python train_fulsup.py
-```
+## Training models from scratch
+After downloading and unzipping the dataset, learn game representations with a ResNet50 encoder by running the following commands on your terminal.
 
-## Run Supervised Contrastive Training
+**1. Plain Supervised Learning**
 ```
-python train_supcon.py
+python train_fulsup.py --dataset_directory="./datasets/Sports10" --epochs=10 --img_shape=224 --batch_size=64
 ```
+**2. Supervised Contrastive Learning**
+```
+python train_supcon.py --dataset_directory="./datasets/Sports10" --epochs=10 --img_shape=224 --batch_size=64
+```
+For additional training arguments, check [train_fulsup.py](./train_fulsup.py) or [train_supcon.py](./train_supcon.py)
 
 ## Download Pre-Trained Model
-
+Alternatively, you can download our pre-trained models from this [google drive link](). Models can be loaded using ```tensorflow.keras.models.load_model('$MODEL_FILENAME.h5')``` and fine-tuned for any downstream task involving RL or GANs.
 
 ## Citation
-
+```
+@inproceedings{trivedi2021contrastive,
+  title={Contrastive Learning of Generalized Game Representations},
+  author={Trivedi, Chintan and Liapis, Antonios and Yannakakis, Georgios N},
+  booktitle={2021 IEEE Conference on Games (CoG)},
+  pages={1--8},
+  year={2021},
+  organization={IEEE}
+}
+```
 
 ## Acknowledgements
+1. https://github.com/sayakpaul/Supervised-Contrastive-Learning-in-TensorFlow-2
+2. https://github.com/wangz10/contrastive_loss
