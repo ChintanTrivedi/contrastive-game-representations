@@ -10,6 +10,8 @@ from tqdm import tqdm
 import losses
 
 
+# Reference: https://github.com/sayakpaul/Supervised-Contrastive-Learning-in-TensorFlow-2
+
 def parse_args():
     parser = argparse.ArgumentParser()
 

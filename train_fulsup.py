@@ -6,6 +6,8 @@ import pandas as pd
 import tensorflow as tf
 
 
+# Reference: https://github.com/sayakpaul/Supervised-Contrastive-Learning-in-TensorFlow-2
+
 def parse_args():
     parser = argparse.ArgumentParser()
 
