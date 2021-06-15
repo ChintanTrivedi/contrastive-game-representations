@@ -21,10 +21,9 @@ We present a new dataset containing ***100,000 Gameplay Images*** of ***175 Vide
 
 <img src='./datasets/Sports10 Banner Image.png'/>
 
-Download the full dataset (~10GB) from [google drive](https://drive.google.com/drive/folders/137Byy_ngEp_dFnzKpnCK1wxyzYxnhamE?usp=sharing) and extract the zip file's contents to the ```datasets``` directory in the project.
-
-Meta-data is also available with the full [list of games](https://drive.google.com/file/d/1OywBuQjjEjxBAKFL7QzE3QRoVQVON4wO/view?usp=sharing).
-For more information on the dataset, please refer our [paper]().
+- Download the full dataset (~10GB) from [google drive](https://drive.google.com/drive/folders/137Byy_ngEp_dFnzKpnCK1wxyzYxnhamE?usp=sharing) and extract the zip file's contents to the ```datasets``` directory in the project.
+- Meta-data is also available with the full [list of games](https://drive.google.com/file/d/1OywBuQjjEjxBAKFL7QzE3QRoVQVON4wO/view?usp=sharing).
+- For more information on the dataset, please refer our [paper]().
 
 
 ## Training models from scratch
