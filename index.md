@@ -1,37 +1,8 @@
-## Welcome to GitHub Pages
+## Download *Sports10* Dataset
+We present a new dataset containing ***100,000 Gameplay Images*** of ***175 Video Games*** across ***10 Sports Genres***. The games are also divided into three visual styling categories: ***RETRO*** (arcade-style, 1990s and earlier), ***MODERN*** (roughly 2000s) and ***PHOTOREAL*** (roughly late 2010s).
 
-You can use the [editor on GitHub](https://github.com/ChintanTrivedi/contrastive-game-representations/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<img src='./datasets/Sports10 Banner Image.png'/>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ChintanTrivedi/contrastive-game-representations/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- Download the full dataset (~10GB) from [google drive](https://drive.google.com/drive/folders/137Byy_ngEp_dFnzKpnCK1wxyzYxnhamE?usp=sharing) and extract the zip file's contents to the ```datasets``` directory in the project.
+- Meta-data is also available with the full [list of games](https://drive.google.com/file/d/1OywBuQjjEjxBAKFL7QzE3QRoVQVON4wO/view?usp=sharing).
+- For more information on the dataset, please refer our [paper]().
