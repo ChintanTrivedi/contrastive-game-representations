@@ -55,5 +55,5 @@ Alternatively, you can download our pre-trained models from this [google drive l
 ```
 
 ## Acknowledgements
-1. https://github.com/sayakpaul/Supervised-Contrastive-Learning-in-TensorFlow-2
-2. https://github.com/wangz10/contrastive_loss
+1. [Improving Image Classifiers With Supervised Contrastive Learning](https://wandb.ai/authors/scl/reports/Improving-Image-Classifiers-With-Supervised-Contrastive-Learning--VmlldzoxMzQwNzE) by [Sayak Paul](https://github.com/sayakpaul)
+2. [Contrastive Loss Functions](https://github.com/wangz10/contrastive_loss) by [Zichen Wang](https://github.com/wangz10)
