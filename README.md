@@ -51,7 +51,6 @@ Alternatively, you can download our pre-trained models from this [google drive l
   title={Contrastive Learning of Generalized Game Representations},
   author={Trivedi, Chintan and Liapis, Antonios and Yannakakis, Georgios N},
   booktitle={2021 IEEE Conference on Games (CoG)},
-  pages={1--8},
   year={2021},
   organization={IEEE}
 }
