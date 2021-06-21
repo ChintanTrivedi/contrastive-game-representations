@@ -1,6 +1,6 @@
 # Contrastive Learning of Generalized Game Representations
 
-### [IEEE CoG 2021 Paper]() | [*Sports10* Dataset](https://drive.google.com/drive/folders/137Byy_ngEp_dFnzKpnCK1wxyzYxnhamE?usp=sharing) | [Pre-Trained Models]()
+### [IEEE CoG 2021 Paper](https://arxiv.org/abs/2106.10060) | [*Sports10* Dataset](https://drive.google.com/drive/folders/137Byy_ngEp_dFnzKpnCK1wxyzYxnhamE?usp=sharing) | [Pre-Trained Models]()
 
 This repository is the official code implementation of the paper **"Contrastive Learning of Generalized Game Representations"** by [Chintan Trivedi](deepgamingai.com), [Antonios Liapis](http://antoniosliapis.com/) and [Georgios Yannakakis](https://yannakakis.net/).
 
@@ -23,7 +23,7 @@ We present a new dataset containing ***100,000 Gameplay Images*** of ***175 Vide
 
 - Download the full dataset (~10GB) from [google drive](https://drive.google.com/drive/folders/137Byy_ngEp_dFnzKpnCK1wxyzYxnhamE?usp=sharing) and extract the zip file's contents to the ```datasets``` directory in the project.
 - Meta-data is also available with the full [list of games](https://drive.google.com/file/d/1OywBuQjjEjxBAKFL7QzE3QRoVQVON4wO/view?usp=sharing).
-- For more information on the dataset, please refer our [paper]().
+- For more information on the dataset, please refer our [paper](https://arxiv.org/abs/2106.10060).
 
 
 ## Training models from scratch
