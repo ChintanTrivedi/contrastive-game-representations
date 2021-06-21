@@ -1,3 +1,6 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/contrastive-learning-of-generalized-game/image-classification-on-sports10)](https://paperswithcode.com/sota/image-classification-on-sports10?p=contrastive-learning-of-generalized-game)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/contrastive-learning-of-generalized-game/representation-learning-on-sports10)](https://paperswithcode.com/sota/representation-learning-on-sports10?p=contrastive-learning-of-generalized-game)
+
 # Contrastive Learning of Generalized Game Representations
 
 ### [IEEE CoG 2021 Paper](https://arxiv.org/abs/2106.10060) | [*Sports10* Dataset](https://drive.google.com/drive/folders/137Byy_ngEp_dFnzKpnCK1wxyzYxnhamE?usp=sharing) | [Pre-Trained Models]()
